@@ -38,6 +38,11 @@ sup {
   position: relative;
   vertical-align: baseline;
 }
+.no-list-styles {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
 
 sub {
   bottom: -0.25em;

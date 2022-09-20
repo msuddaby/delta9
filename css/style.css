@@ -1,0 +1,71 @@
+div.dk-blue {
+
+    background-color: #1f3e5c;
+    color: #bbdeff;
+}
+div.lt-blue {
+    background-color: #499fd4;
+    color: white;
+    display: flex;
+}
+
+h1 {
+    margin: 0;
+}
+
+header p {
+    margin: 0;
+}
+
+header .dk-blue ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+header .dk-blue li {
+    padding: 0 1rem;
+}
+
+.dk-blue {
+    padding: .5rem;
+}
+
+header .dk-blue li:hover {
+    color: dodgerblue;
+    cursor: pointer;
+}
+
+header p {
+    display: none;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.lt-grey .container {
+    display: flex;
+    justify-content: center;
+
+}
+
+.lt-grey .container a {
+    padding: 1rem;
+}
+
+.boxes {
+    display: flex;
+}
+
+@media (min-width: 768px) {
+    header p {
+        display: block;
+    }
+
+    header .dk-blue .container {
+        display: flex;
+        justify-content: space-between;
+    }
+}
